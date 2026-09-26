@@ -1,8 +1,8 @@
 import { Button, Card, Flex } from "antd";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { api } from "../../helpers/helpers";
-import NotFoundPostPage from "../NotFoundPostPage"
+import { api } from "../helpers/helpers";
+import NotFoundPostPage from "./NotFoundPostPage"
 
 const PostPage = () => {
 
