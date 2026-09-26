@@ -1,0 +1,24 @@
+.header {
+    height: 150px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: #333;
+
+    .list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+
+        & li a {
+            color: wheat;
+            text-decoration: none;
+
+            &.active {
+                color: red;
+            }
+        }
+    }
+}

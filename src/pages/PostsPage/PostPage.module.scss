@@ -1,0 +1,23 @@
+.card {
+    width: 500px;
+    height: 300pxpx;
+    padding: 8px;
+    margin: 24px auto;
+    border: 2.5px solid blue;
+    border-radius: 30px;
+    
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .span {
+        color: #989898;
+        font-weight: 500;
+    }
+
+    .button {
+        background-color: #a91d11 !important;
+        margin: 20px auto;
+    }
+}
