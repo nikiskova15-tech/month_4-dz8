@@ -6,7 +6,7 @@ import { Spin } from "antd"
 const MainPage = lazy(() => import("./pages/MainPage.jsx"))
 const AboutPage = lazy(() => import("./pages/AboutPage.jsx"))
 const PostsPage = lazy(() => import("./pages/PostsPage/PostsPage"))
-const PostPage = lazy(() => import("./pages/PostPage/PostPage"))
+const PostPage = lazy(() => import("./pages/PostPage.jsx"))
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage.jsx"))
 
 
